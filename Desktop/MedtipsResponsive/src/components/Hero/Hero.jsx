@@ -2,11 +2,12 @@ import React from "react";
 import bgImg from "../../assets/website/vector3.jpg";
 import img1 from "../../assets/website/edited_image_ozu_logo_fixed.png";
 import img2 from"../../assets/website/qr.jpeg";
+import img3 from"../../assets/website/ozu.jpeg";
 
 const ImageList = [
-  { id: 1, img: img2 },
+  { id: 1, img: img1 },
   { id: 2, img: img2 },
-  { id: 3, img: img1 },
+  { id: 3, img: img3 },
 ];
 
 const bgImage = {
@@ -70,11 +71,14 @@ const Hero = () => {
                         key={item.id}
                         src={item.img}
                         className="max-w-[80px] h-[80px] object-contain inline-block hover:scale-105 duration-200"
-                        onClick={()=>{
-                            setImageId(
-                                item.id===1?
-                                img1:item.id===2?img2:img1
-                            )
+                        onClick={() => {
+                          setImageId(
+                            item.id === 1
+                              ? img1
+                              : item.id === 2
+                              ? img2
+                              : img3 // This handles item.id === 3
+                          );
                         }}
 
                         
