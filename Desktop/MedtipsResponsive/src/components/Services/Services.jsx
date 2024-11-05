@@ -7,23 +7,23 @@ const ServicesData = [
   {
     id: 1,
     img: Img,
-    name: "Biryani",
+    name: "24/7 Delivery",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet.",
+      "Medtips offers round the clock delivery of medicines right at your doorstep.",
   },
   {
     id: 2,
     img: Img2,
-    name: "Chiken kari",
+    name: "30 Mins Delivery",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
+      "Medtips helps to get medicines delivered at your doorstep within 30 Minutes",
   },
   {
     id: 3,
     img: Img3,
-    name: "Cold Cofee",
+    name: "Medical Tourism",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
+      "Medtips offeres a range of services for Medical Tourism",
   },
 ];
 

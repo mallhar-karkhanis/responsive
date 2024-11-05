@@ -45,9 +45,13 @@ const Hero = () => {
                 reiciendis.
               </p>
               <div>
+
+                <a href="https://api.whatsapp.com/send?phone=917814772720&text=Hello%2C%20i%20need%20medicine%20">
                 <button className="bg-gradient-to-r from-primary to-secondary text-white px-4 py-2 rounded-full hover:scale-105 duration-200">
                   Order on Whatsapp
                 </button>
+                </a>
+               
               </div>
             </div>
             {/* Image Section */}
